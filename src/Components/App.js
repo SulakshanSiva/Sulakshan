@@ -1,10 +1,12 @@
-import "../Styles/App.css"
+import "../Styles/App.scss"
 import Navbar from "./Navbar";
+import Home from "./Home";
 
 function App() {
   return (
     <div className="App">
       <Navbar/>
+      {/* <Home/> */}
     </div>
   );
 }
