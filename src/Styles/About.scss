@@ -1,8 +1,57 @@
 $main-color: #0074D9;
 
-.about{
+.about {
     height: 100vh;
     width: 100%;
     overflow-y: hidden;
+    background-image: url('../Assets/Images/wave.svg');
+    background-size: cover;
+    background-position: center;
+    display: flex; 
+    justify-content: center;
+    flex-direction: column; 
+    align-items: center; 
 
+    .picture{
+        width: 200px;
+        height: 200px; 
+        border: 1px solid black; 
+        background-color: white; 
+        border-radius: 10px;
+        background-image: url('../Assets/Images/profilepic.png');
+        background-size: cover;
+        margin-top: 25px;
+        margin-bottom: 35px;
+    }
+
+    .socialLinks{
+        display: flex;
+        justify-content: center;
+        margin-bottom: 30px;
+
+        a{
+            margin: 0 10px;
+        }
+    }
+
+    .aboutInfo{
+        display: flex;
+        flex-direction: column;
+        justify-content: center; 
+        align-items: center;
+        padding-bottom: 25px;
+
+        h2{
+            padding-bottom: 10px;
+        }
+
+        h3{
+            padding-bottom: 15px;
+        }
+
+        p{
+            padding-bottom: 5px;
+        }
+    }
 }
+

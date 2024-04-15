@@ -2,6 +2,7 @@ import "../Styles/App.scss"
 import Navbar from "./Navbar";
 import Home from "./Home";
 import About from "./About";
+import Projects from "./Projects";
 
 function App() {
   return (
@@ -9,6 +10,7 @@ function App() {
       <Navbar/>
       <Home/>
       <About/>
+      {/* <Projects/> */}
     </div>
   );
 }
