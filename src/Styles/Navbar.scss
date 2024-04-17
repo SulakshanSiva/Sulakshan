@@ -16,6 +16,12 @@ $margin-spacing: 80px;
 
     .navLogo{
         margin-left: $margin-spacing;
+        color: $text-color;
+
+        a{
+            text-decoration: none;
+            color: $text-color;
+        }
     }
 
     .navLinks{

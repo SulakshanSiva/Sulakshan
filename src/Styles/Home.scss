@@ -1,10 +1,12 @@
 $main-color: #0074D9;
+$secondary-color: white;
+$third-color: black;
 
 .home{
     height: 100vh;
     width: 100%;
     overflow-y: hidden;
-    background: linear-gradient(to bottom right, white 60%, $main-color 40%);
+    background: linear-gradient(to bottom right, $secondary-color 60%, $main-color 40%);
     
 
     .intro{
@@ -12,11 +14,17 @@ $main-color: #0074D9;
 
         h3{
             margin-bottom: 10px;
+            color: $third-color;
         }
 
         h1{
             font-size: 3em;
             margin-bottom: 10px;
+            color: $third-color;    
+        }
+
+        p{
+            color: $third-color;
         }
         
         .jobTitle {
@@ -52,7 +60,7 @@ $main-color: #0074D9;
                     transition: box-shadow 300ms ease-in-out, color 300ms ease-in-out;
                     outline: 0;
                     box-shadow: 0 0 40px 40px $main-color inset;
-                    color: white;
+                    color: $secondary-color;
                 }
             }
         }

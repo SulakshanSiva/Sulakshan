@@ -6,19 +6,21 @@
       <div className="navbar">
 
         <div className="navLogo">
-          <h1>Sulakshan.</h1>
+          <a href="#home">
+            <h1>Sulakshan.</h1>
+          </a>
         </div>
 
         <div className="navLinks">
           <ul>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Career</a></li>
-            <li><a href="#">Projects</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#career">Career</a></li>
+            <li><a href="#projects">Projects</a></li>
           </ul> 
         </div>
 
         <div className="navBtn">
-          <a href="#">Contact</a>
+          <a href="#contact">Contact</a>
         </div>    
 
       </div>

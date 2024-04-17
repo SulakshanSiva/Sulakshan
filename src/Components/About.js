@@ -5,7 +5,7 @@ import githubLogo from "../Assets/Images/icons8-github.svg"
 
 const About = () => {
   return (
-    <div className='about'>
+    <div className='about' id='about'>
 
         <div className='picture'></div>
 
