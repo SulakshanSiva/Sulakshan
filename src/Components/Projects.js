@@ -1,7 +1,6 @@
-import React from 'react'
-import "../Styles/Projects.scss"
-import Card from "./Card.js"
-
+import React from 'react';
+import "../Styles/Projects.scss";
+import Card from "./Card.js";
 
 const cardsData = [
   {
@@ -41,15 +40,22 @@ const Projects = () => {
   const secondRow = cardsData.slice(3);
 
   return (
-    <div className='projects' id="projects">
+    <div className='projectbkg'>
+      
+      <div className="wave-svg">
+        <svg viewBox="0 0 1200 120" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M 0,60 C 150,60 150,20 300,20 C 450,20 450,100 600,100 C 750,100 750,20 900,20 C 1050,20 1050,60 1200,60 " stroke="#0074D9" strokeWidth="5" fill="none"/>
+        </svg>
+      </div>
+
+      <div className='projects' id="projects">
 
         <h2>My Projects</h2>
 
         <ul className="card-container">
           {firstRow.map((card, index) => (
-            <li>
+            <li key={index}>
               <Card
-                key={index}
                 title={card.title}
                 description={card.description}
                 technologies={card.technologies}
@@ -61,9 +67,8 @@ const Projects = () => {
 
         <ul className="card-container">
           {secondRow.map((card, index) => (
-            <li>
+            <li key={index}>
               <Card
-                key={index}
                 title={card.title}
                 description={card.description}
                 technologies={card.technologies}
@@ -72,8 +77,11 @@ const Projects = () => {
             </li>
           ))}
         </ul>
+
+      </div>
+      
     </div>
   )
 }
 
-export default Projects
+export default Projects;
