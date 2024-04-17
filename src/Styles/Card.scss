@@ -1,9 +1,43 @@
 $main-color: #0074D9;
 
-.card{
-    color: white;
-    width: 250px;
-    height: 250px;
-    background-color: $main-color;
-    border-radius: 10px; 
+.card {
+  color: black;
+  width: 300px;
+  height: 250px;
+  background-color: white;
+  border-radius: 10px; 
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 10px 30px -15px;
+  position: relative; 
+  transition: box-shadow 0.3s, transform 0.3s;
+
+  &:hover {
+    box-shadow: $main-color 0px 15px 35px -15px;
+    transform: translateY(-5px);
+  }
+
+  .logo-container {
+    position: absolute;
+    top: 10px;
+    right: 10px; 
+  }
+  
+  .content {
+    padding: 20px;
+    padding-right: 40px; 
+
+    h2 {
+      color: $main-color;
+      margin-top: 0;
+      margin-bottom: 10px;
+    }
+
+    .description {
+      margin-bottom: 10px;
+    }
+      
+    .technologies {
+      margin-top: auto;
+      color: $main-color;
+    }
+  }
 }

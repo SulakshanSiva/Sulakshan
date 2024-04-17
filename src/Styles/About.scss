@@ -11,12 +11,13 @@ $main-color: #0074D9;
     justify-content: center;
     flex-direction: column; 
     align-items: center; 
+    background-color: whitesmoke;
 
     .picture{
         width: 200px;
         height: 200px; 
         border: 1px solid black; 
-        background-color: white; 
+        background-color: color; 
         border-radius: 10px;
         background-image: url('../Assets/Images/profilepic.png');
         background-size: cover;
