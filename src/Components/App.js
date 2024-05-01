@@ -3,7 +3,8 @@ import Navbar from "./Navbar";
 import Home from "./Home";
 import About from "./About";
 import Projects from "./Projects";
-import Career from "./Career";
+import Experience from "./Experience";
+import Contact from "./Contact";
 
 function App() {
   return (
@@ -11,8 +12,9 @@ function App() {
       <Navbar/>
       <Home/>
       <About/>
-      {/* <Career/> */}
+      {/* <Experience/> */}
       <Projects/>
+      <Contact/>
     </div>
   );
 }

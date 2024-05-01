@@ -12,7 +12,8 @@ $margin-spacing: 80px;
     position: fixed;
     top: 0;
     left: 0;
-    background-color: whitesmoke;
+    background-color: white;
+    z-index: 1000;
 
     .navLogo{
         margin-left: $margin-spacing;

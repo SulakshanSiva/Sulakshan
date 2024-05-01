@@ -14,7 +14,7 @@
         <div className="navLinks">
           <ul>
             <li><a href="#about">About</a></li>
-            <li><a href="#career">Career</a></li>
+            {/* <li><a href="#experience">Experience</a></li> */}
             <li><a href="#projects">Projects</a></li>
           </ul> 
         </div>

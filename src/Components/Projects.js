@@ -40,7 +40,7 @@ const Projects = () => {
   const secondRow = cardsData.slice(3);
 
   return (
-    <div className='projectbkg'>
+    <div  id="projects"className='projectbkg'>
       
       <div className="wave-svg">
         <svg viewBox="0 0 1200 120" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
@@ -48,7 +48,7 @@ const Projects = () => {
         </svg>
       </div>
 
-      <div className='projects' id="projects">
+      <div className='projects'>
 
         <h2>My Projects</h2>
 

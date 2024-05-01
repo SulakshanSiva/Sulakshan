@@ -1,14 +1,14 @@
 $main-color: #0074D9;
 
 .projectbkg {
+    height: 100vh;
+    width: 100%;
     position: relative;
-    background-color: whitesmoke;
+    background-color: white;
     display: flex;
     justify-content: center;
     align-items: center;
     overflow: hidden;
-    height: 100vh;
-    width: 100%;
     z-index: 0;
 
     .wave-svg {
@@ -27,7 +27,7 @@ $main-color: #0074D9;
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        padding-top: 50px;
+        padding-top: 100px;
         position: relative;
         z-index: 1;
     
