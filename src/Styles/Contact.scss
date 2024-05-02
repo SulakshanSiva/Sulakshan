@@ -13,6 +13,7 @@ $secondary-color: white;
   padding-top: 100px;
   background-size: auto;
   background-position: center;
+  text-align: center;
 
   h1 {
     padding-bottom: 20px;
@@ -83,5 +84,16 @@ $secondary-color: white;
     right: 0;
     border-width: 150px 150px 0 0;
     border-color: transparent $main-color transparent transparent;
+  }
+
+  // Adjust border widths for smaller screens
+  @media (max-width: 767px) {
+    &::before {
+      border-width: 50px 0 0 50px; // Adjust border width
+    }
+
+    &::after {
+      border-width: 50px 50px 0 0; // Adjust border width
+    }
   }
 }

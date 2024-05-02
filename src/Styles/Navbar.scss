@@ -1,13 +1,11 @@
 $text-color: black;
 $hover-color: #0074D9;
 $margin-spacing: 80px;
-
-.navbar{
+.navbar {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding: 20px;
     width: 100%;
     position: fixed;
     top: 0;
@@ -15,52 +13,73 @@ $margin-spacing: 80px;
     background-color: white;
     z-index: 1000;
 
-    .navLogo{
+    .navLogo {
         margin-left: $margin-spacing;
         color: $text-color;
 
-        a{
+        a {
             text-decoration: none;
             color: $text-color;
         }
     }
 
-    .navLinks{
+    .navLinks {
         margin-top: 10px;
 
-        ul{
+        ul {
             list-style-type: none;
             padding: 0;
             margin: 0;
 
-            li{
+            li {
                 display: inline; 
                 margin-right: $margin-spacing;
     
-                a{
+                a {
                     text-decoration: none;
                     color: $text-color;
-                }
-                
-                a:hover{
-                    color: $hover-color;
+
+                    &:hover {
+                        color: $hover-color;
+                    }
                 }
             }
         }
     }
 
-    .navBtn{
+    .navBtn {
         margin-top: 15px;
         margin-right: $margin-spacing;
         
-        a{
+        a {
             text-decoration: none;
             color: $text-color;
         }
         
-        a:hover{
+        a:hover {
             color: $hover-color;
         }
+
+        .feather-menu {
+            display: none; // Initially hide the hamburger menu icon
+        }
     }
-    
+
+    // Media query for smaller screens
+    @media (max-width: 767px) {
+        .navLogo {
+            margin-left: 10px; // Adjust margin for smaller screens
+        }
+
+        .navLinks {
+            display: none; // Hide links by default on smaller screens
+        }
+
+        .navBtn {
+            .feather-menu {
+                display: block; // Show the hamburger menu icon on smaller screens
+            }
+        }
+
+    }
 }
