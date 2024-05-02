@@ -1,85 +1,105 @@
 $text-color: black;
 $hover-color: #0074D9;
 $margin-spacing: 80px;
-.navbar {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 20px;
-    width: 100%;
-    position: fixed;
-    top: 0;
-    left: 0;
-    background-color: white;
-    z-index: 1000;
 
-    .navLogo {
-        margin-left: $margin-spacing;
-        color: $text-color;
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: white;
+  z-index: 1000;
+
+  .navLogo {
+    margin-left: $margin-spacing;
+    color: $text-color;
+
+    a {
+      text-decoration: none;
+      color: $text-color;
+    }
+  }
+
+  .navLinks {
+    ul {
+      list-style-type: none;
+      padding: 0;
+      margin: 0;
+
+      li {
+        display: inline; 
+        margin-right: $margin-spacing;
 
         a {
-            text-decoration: none;
-            color: $text-color;
+          text-decoration: none;
+          color: $text-color;
+
+          &:hover {
+            color: $hover-color;
+          }
         }
+      }
+    }
+  }
+
+  .navBtn {
+    margin-top: 15px;
+    margin-right: $margin-spacing;
+    
+    .feather-menu {
+      display: none; // Initially hide the hamburger menu icon
+    }
+  }
+
+  // Media query for smaller screens
+  @media (max-width: 767px) {
+    .navLogo {
+      margin-left: 10px; // Adjust margin for smaller screens
     }
 
     .navLinks {
-        margin-top: 10px;
-
-        ul {
-            list-style-type: none;
-            padding: 0;
-            margin: 0;
-
-            li {
-                display: inline; 
-                margin-right: $margin-spacing;
-    
-                a {
-                    text-decoration: none;
-                    color: $text-color;
-
-                    &:hover {
-                        color: $hover-color;
-                    }
-                }
-            }
-        }
+      display: none; // Hide links by default on smaller screens
     }
 
     .navBtn {
-        margin-top: 15px;
-        margin-right: $margin-spacing;
-        
+      .feather-menu {
+        display: block; // Show the hamburger menu icon on smaller screens
+      }
+    }
+
+    .showOnMobile {
+      display: flex;
+      flex-direction: column;
+      position: absolute;
+      top: 100%;
+      left: 0;
+      width: 100%;
+      background-color: white;
+      z-index: 999;
+      align-items: center;
+    //   border-bottom: 1px solid black; // Add border at the bottom
+      box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.4); // Add shadow
+
+      ul {
+        margin-top: 20px;
+        padding-left: 0;
+        flex-direction: column;
+        list-style-type: none;
+      }
+
+      li {
+        margin-right: 30px;
+        margin-bottom: 25px; 
+
         a {
             text-decoration: none;
-            color: $text-color;
-        }
-        
-        a:hover {
-            color: $hover-color;
-        }
-
-        .feather-menu {
-            display: none; // Initially hide the hamburger menu icon
-        }
+            color: $text-color; 
+          }
+      }
     }
-
-    // Media query for smaller screens
-    @media (max-width: 767px) {
-        .navLogo {
-            margin-left: 10px; // Adjust margin for smaller screens
-        }
-
-        .navLinks {
-            display: none; // Hide links by default on smaller screens
-        }
-
-        .navBtn {
-            .feather-menu {
-                display: block; // Show the hamburger menu icon on smaller screens
-            }
-        }
-
-    }
+  }
 }
