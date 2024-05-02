@@ -9,7 +9,7 @@ const Navbar = () => {
   };
 
   const closeHamburger = () => {
-    setIsHamburgerClicked(false); // Set isHamburgerClicked to false to close the menu
+    setIsHamburgerClicked(false); 
   };
 
   return (

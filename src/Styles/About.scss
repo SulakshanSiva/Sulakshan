@@ -20,7 +20,7 @@ $main-color: #0074D9;
         border-radius: 10px;
         background-image: url('../Assets/Images/profilepic.png');
         background-size: cover;
-        margin-top: 25px;
+        margin-top: 55px;
         margin-bottom: 35px;
     }
 
@@ -39,12 +39,10 @@ $main-color: #0074D9;
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        padding: 0 20px; // Add horizontal padding to maintain spacing
+        padding: 0 20px; 
 
-        // Center align text horizontally
         text-align: center;
 
-        // Limit maximum width for smaller screens
         max-width: 90%;
 
         h2 {

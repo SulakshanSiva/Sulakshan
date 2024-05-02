@@ -13,9 +13,13 @@ const Home = () => {
         <h3 className='jobTitle'>Software Engineer</h3>
         <p>I'm a Full-Stack engineer, currently in the <br></br>Computer Science (Co-op) program at the University of Guelph.</p>
 
-          <a href={resume} download="Sulakshan_Sivakumaran_Resume">
-            <button>Resume</button>
-          </a>
+        <a href={resume} download="Sulakshan_Sivakumaran_Resume">
+          <button>Resume</button>
+        </a>
+
+      </div>
+
+      <div className='triangle'>
 
       </div>
 
