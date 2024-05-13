@@ -16,6 +16,12 @@ const cardsData = [
     githublink: "https://github.com/SulakshanSiva/Molecule-Viewer"
   },
   {
+    title: "StatPad",
+    description: "A data scraper that scrapes Premier League match/player statistics and displays them to the user. ",
+    technologies: "React, NodeJS, ExpressJS, Supabase, Python, SASS, Postman",
+    githublink: "https://github.com/SulakshanSiva/StatPad-API"
+  },
+  {
     title: "Tic-Tac-Toe",
     description: "Built a version of TicTacToe that allows the user to play the original version or the numerical version of the game.",
     technologies: "Java, Object-Oriented-Programming Principles, JUnit Testing, Docker",
@@ -26,12 +32,6 @@ const cardsData = [
     description: "Created a Chat App that allows a user to communicate with another user through real-time messages.",
     technologies: "React, Firebase, Bootstrap",
     githublink: "https://github.com/SulakshanSiva/Chat-App"
-  },
-  {
-    title: "Pathfinding Algorithm Visualizer",
-    description: "Created a Pathfinding Visualizer using the A* search algorithm.",
-    technologies: "Python",
-    githublink: "https://github.com/SulakshanSiva/Pathfinding-Algorithm-Visualizer"
   },
 ];
 
