@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Sulakshan/static/css/main.01d24447.css",
-    "main.js": "/Sulakshan/static/js/main.af5cf3ec.js",
+    "main.js": "/Sulakshan/static/js/main.5aaa5034.js",
     "static/media/profilepic.png": "/Sulakshan/static/media/profilepic.e46bbf4fea8e906bd99a.png",
     "static/media/Sulakshan_Sivakumaran_Resume.pdf": "/Sulakshan/static/media/Sulakshan_Sivakumaran_Resume.97a88a13b2b85cee7a37.pdf",
     "static/media/icons8-github-30.svg": "/Sulakshan/static/media/icons8-github-30.e7e2bc8e3b94958f09a23ee8a5aaae7a.svg",
@@ -10,10 +10,10 @@
     "static/media/icons8-linkedin.svg": "/Sulakshan/static/media/icons8-linkedin.bc5aec50c9c7d4afaf9a956ed15439c3.svg",
     "static/media/wave.svg": "/Sulakshan/static/media/wave.822957cb5398f1ad006f.svg",
     "main.01d24447.css.map": "/Sulakshan/static/css/main.01d24447.css.map",
-    "main.af5cf3ec.js.map": "/Sulakshan/static/js/main.af5cf3ec.js.map"
+    "main.5aaa5034.js.map": "/Sulakshan/static/js/main.5aaa5034.js.map"
   },
   "entrypoints": [
     "static/css/main.01d24447.css",
-    "static/js/main.af5cf3ec.js"
+    "static/js/main.5aaa5034.js"
   ]
 }
