@@ -1,6 +1,5 @@
 import React from 'react'
 import "../Styles/Home.scss"
-import resume from "../Assets/Sulakshan_Sivakumaran_Resume.pdf"
 
 const Home = () => {
   return (
@@ -13,7 +12,7 @@ const Home = () => {
         <h3 className='jobTitle'>Software Engineer</h3>
         <p>I'm a Full-Stack engineer, currently in the <br></br>Computer Science (Co-op) program at the University of Guelph.</p>
 
-        <a href={resume} download="Sulakshan_Sivakumaran_Resume">
+        <a href="https://drive.google.com/file/d/1OIXSgYwDi0j6pq9io2NP1lefIXEW8ev_/view?usp=sharing" target="_blank">
           <button>Resume</button>
         </a>
 
@@ -23,7 +22,7 @@ const Home = () => {
 
       </div>
 
-    </div>
+    </div>  
   )
 }
 
