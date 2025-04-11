@@ -12,7 +12,7 @@ const Home = () => {
         <h3 className='jobTitle'>Software Engineer</h3>
         <p>I'm a Full-Stack engineer, currently in the <br></br>Computer Science (Co-op) program at the University of Guelph.</p>
 
-        <a href="https://drive.google.com/file/d/1AAN1QH-ClTXbD8w_MsIfX5v1UkbUmKc1/view?usp=sharing" target="_blank">
+        <a href="https://drive.google.com/file/d/1clsAP0yGc0tNUMKyDn9W9SDUbYKZXnUu/view?usp=sharing" target="_blank">
           <button>Resume</button>
         </a>
 
